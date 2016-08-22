@@ -1,7 +1,6 @@
 caspar (20140919-2) unstable; urgency=medium
 
-  * UNRELEASED.
-  * debian/control: bumped Standards-Version: from 3.9.5 to 3.9.7 (no
+  * debian/control: bumped Standards-Version: from 3.9.5 to 3.9.8 (no
     changes needed: caspar-doc behaves as now specified in policy 12.3).
   * debian/control: fix Homepage and Vcs-Git fields: work around bug in my
     current bozohttpd webserver.
