@@ -1,12 +1,15 @@
-caspar (20140919-2) unstable; urgency=low
+caspar (20140919-2) unstable; urgency=medium
 
   * UNRELEASED.
   * debian/control: bumped Standards-Version: from 3.9.5 to 3.9.7 (no
     changes needed: caspar-doc behaves as now specified in policy 12.3).
   * debian/control: fix Homepage and Vcs-Git fields: work around bug in my
     current bozohttpd webserver.
+  * debian/watch: more strict (so that it no longer matches
+    caspar-latest.tar.gz).  Inspired by patch by bartm via the sepwatch
+    project, thanks!
 
- -- Joost van Baal-Ilić <joostvb@debian.org>  Fri, 04 Mar 2016 11:38:12 +0100
+ -- Joost van Baal-Ilić <joostvb@debian.org>  Mon, 22 Aug 2016 05:14:46 +0200
 
 caspar (20140919-1) unstable; urgency=low
 

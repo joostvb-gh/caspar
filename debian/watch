@@ -1,2 +1,4 @@
 version=3
-http://mdcc.cx/pub/caspar/caspar-(.*)\.tar\.gz
+http://mdcc.cx/pub/caspar/ \
+(?:|.*/)caspar(?:[_\-]v?|)(\d[^\s/]*)\.(?:tar\.xz|tar\.gz)
+# http://mdcc.cx/pub/caspar/caspar-([\d\.]+)\.tar\.gz
